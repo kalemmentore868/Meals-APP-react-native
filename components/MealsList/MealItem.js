@@ -7,7 +7,7 @@ import {
   Platform,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import MealData from "./MealData";
+import MealData from "../MealData";
 
 function MealItem({ item }) {
   const { title, imageUrl, duration, complexity, affordability, id } = item;
